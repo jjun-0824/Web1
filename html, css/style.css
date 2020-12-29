@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+}
+header h1 {
+  font-size: 50px;
+  text-align: center;
+  font-family: "Mulish", sans-serif;
+  /*border-bottom:1px solid gray;*/
+}
+header p {
+  text-align: center;
+}
+#cate12 {
+  display: flex;
+  justify-content: space-evenly; /*똑같은 간격을 넣어줄때*/
+}
+#cate34 {
+  display: flex;
+  justify-content: space-evenly;
+}
+div img {
+  width: 250px;
+}
+#cate1 {
+  font-size: 30px;
+
+  /*background-color: aliceblue;*/
+  position: relative;
+  font-family: "Mulish", sans-serif;
+}
+#cate2 {
+  font-size: 30px;
+
+  font-family: "Mulish", sans-serif;
+  /*background-color: aliceblue;*/
+}
+/*border: 1px solid black*/
+#cate3 {
+  /*margin: 100px 360px 10px 50px;*/
+  font-size: 30px;
+
+  font-family: "Mulish", sans-serif;
+  /*background-color: aliceblue;*/
+}
+#cate4 {
+  font-size: 30px;
+
+  font-family: "Mulish", sans-serif;
+  /*background-color: aliceblue;*/
+}
+div#button img {
+  position: fixed;
+  width: 1px;
+}

@@ -3,15 +3,47 @@
 <head>
     <title>WEB1 - html</title>
     <meta charset="utf-8">
+    <style>
+        body{
+            margin:0;
+        }
+        a {
+            color:black;
+            text-decoration:none;
+        }
+        #active{
+            color:red;
+        }
+        .saw{
+            color:gray;
+        }
+        
+        h1{
+            font-size: 45px;
+            text-align: center;
+            border-bottom: 1px solid gray;
+            margin:0;
+            padding:20px;
+        }
+        ol{
+            border-right:1px solid gray;
+            width:100px;
+            margin:0;
+            padding:20px;
+        }
+    </style>
+    <!--선택자가 중복으로 불러져 오더라도, 마지막에 등장하는 것들의 말을 들음.-->
+    <!--ID > class > 태그 우선순위를 가지고 있음-->
 </head>
 <!--위에는 본문 내용을 설명. 하단은 본문-->
-
 <body>
     <h1><a href="index.html">WEB</a></h1>
     <ol>
-        <li><a href="1.html">HTML</a></li>
-        <li><a href="2.html">CSS</a></li>
-        <li><a href="3.html">JavaScript</a></li>
+        <!--style은 태그의 속성에 해당하고 속성의 내용은 css만 들어온다!-->
+        <!--효과를 의미하는 용어가 바로 property-->
+        <li><a  href="1.html">HTML</a></li>
+        <li><a href="2.html" class="saw">CSS</a></li>
+        <li><a href="3.html" class="saw" id="active">JavaScript</a></li>
     </ol>
     <ul>
         <li>egoing</li>
